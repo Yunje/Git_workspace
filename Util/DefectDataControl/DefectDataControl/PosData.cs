@@ -8,15 +8,15 @@ namespace DefectDataControl
 {
     class PosData
     {
-        public PosData(int startpos, int endpos, int width, int height)
+        public PosData(int left, int top, int width, int height)
         {
-            startpos_ = startpos;
-            endpos_ = endpos;
+            left_ = left;
+            top_ = top;
             width_ = width;
             height_ = height;
         }
-        public int startpos_;
-        public int endpos_;
+        public int left_;
+        public int top_;
         public int width_;
         public int height_;
     }
